@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HonkaiProject</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Honkai Star Rail</string>
+    <string name="second_fragment_label">Personagens</string>
+    <string name="third_fragment_label">Temas</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="theme">
+        <item>Escolha um tema:</item>
+        <item>Jarilo VI</item>
+        <item>Xianzhou</item>
+        <item>Penacony</item>
+    </string-array>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </string>
+</resources>
