@@ -15,7 +15,8 @@
         <item>Penacony</item>
     </string-array>
 
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </string>
+    <string name="name">Nome: </string>
+    <string name="relic">Relíquias</string>
+    <string name="twopeace">2 peças: </string>
+    <string name="fourpeace">4 peças: </string>
 </resources>

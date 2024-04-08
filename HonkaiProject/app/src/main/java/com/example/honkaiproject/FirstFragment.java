@@ -37,7 +37,10 @@ public class FirstFragment extends Fragment {
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_thirdFragment)
         );
-
+        binding.btnRelic.setOnClickListener(v ->
+                NavHostFragment.findNavController(FirstFragment.this)
+                        .navigate(R.id.action_FirstFragment_to_fourthFragment)
+        );
     }
 
     @Override
