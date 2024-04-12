@@ -38,7 +38,7 @@ public class FourthFragment extends Fragment {
         int[] list = new int[]{
                 R.drawable.sample_0, R.drawable.sample_1, R.drawable.sample_2,
                 R.drawable.sample_3, R.drawable.sample_4, R.drawable.sample_5,
-                R.drawable.sample_6
+                R.drawable.sample_6, R.drawable.sample_7, R.drawable.sample_8
         };
         binding.gridRelic.setAdapter(new Adaptador(getContext(), list));
         binding.gridRelic.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -82,6 +82,16 @@ public class FourthFragment extends Fragment {
                         nome = "Caçador da Floresta Glacial";
                         twoPeace = "Aumenta o Dano de Gelo em 10%.";
                         fourPeace = "Após o usuário utilizar sua Perícia Suprema, aumenta em 25% o Dano CRIT por 2 rodada(s).";
+                        break;
+                    case 7:
+                        nome = "Cavaleira do Palácio da Pureza";
+                        twoPeace = "Aumenta a DEF em 15%.";
+                        fourPeace = "Aumenta em 20% o Dano máximo que pode ser absorvido pelo Escudo criado pelo usuário.";
+                        break;
+                    case 8:
+                        nome = "Discípula Longeva";
+                        twoPeace = "Aumenta os PV máximos em 12%.";
+                        fourPeace = "Quando o usuário recebe um golpe ou tem seus PV consumidos por um aliado ou por si próprio, a Chance de CRIT dele aumenta em 8% por 2 rodada(s) e até 2 acúmulos.";
                         break;
                 }
                 binding.txtNameResult.setText(nome);

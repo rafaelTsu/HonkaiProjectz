@@ -1,18 +1,23 @@
 package com.example.honkaiproject;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
+import java.util.List;
 
 public class Adaptador extends BaseAdapter {
     private Context context;
     private int[] list;
+
     public Adaptador(Context context, int[] list){
         this.context=context;
         this.list=list;
     }
+
     @Override
     public int getCount() {
         return list.length;
@@ -25,6 +30,7 @@ public class Adaptador extends BaseAdapter {
     public long getItemId(int position) {
         return position;
     }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ImageView iv=new ImageView(context);
@@ -34,4 +40,5 @@ public class Adaptador extends BaseAdapter {
         iv.setPadding(5,5,5,5);
         return iv;
     }
+
 }
