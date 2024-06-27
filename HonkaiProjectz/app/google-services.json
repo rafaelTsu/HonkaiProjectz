@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304786291685",
+    "project_id": "honkaiprojectz",
+    "storage_bucket": "honkaiprojectz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304786291685:android:51e1fa7274dfbf1d548d0c",
+        "android_client_info": {
+          "package_name": "com.example.honkaiprojectz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBENOZrGPZMCyF3Bb4KAU7eoGif6AHEimg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304786291685:android:ae576895995aeb78548d0c",
+        "android_client_info": {
+          "package_name": "com.example.honkaiprojectz2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBENOZrGPZMCyF3Bb4KAU7eoGif6AHEimg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
