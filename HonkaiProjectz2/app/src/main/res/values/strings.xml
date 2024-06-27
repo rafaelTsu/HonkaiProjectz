@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HonkaiProjectz2</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Registrar</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="inventory">Inventário</string>
+    <string name="music">Música</string>
+    <string name="map">Mapa</string>
+    <string name="back">Voltar</string>
+
+    <string-array name="theme">
+        <item>Escolha um tema:</item>
+        <item>Embers</item>
+        <item>Blade</item>
+        <item>Golden Hour</item>
+        <item>Star Rail</item>
+        <item>Space Walk</item>
+        <item>Take the Journey</item>
+        <item>Conflict Undraped</item>
+        <item>Fate</item>
+    </string-array>
+
+</resources>
