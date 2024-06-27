@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/background"
     tools:context=".views.Register">
 
@@ -56,3 +61,8 @@
         android:textSize="16sp"/>
 
 </RelativeLayout>
+=======
+    tools:context=".views.Register">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd

@@ -1,5 +1,6 @@
 package com.example.honkaiprojectz2.views;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,11 +12,17 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
+=======
+import android.os.Bundle;
+
+import androidx.activity.EdgeToEdge;
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+<<<<<<< HEAD
 import com.example.honkaiprojectz2.MainActivity;
 import com.example.honkaiprojectz2.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -41,11 +48,18 @@ public class Register extends AppCompatActivity {
         }
     }
 
+=======
+import com.example.honkaiprojectz2.R;
+
+public class Register extends AppCompatActivity {
+
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_register);
+<<<<<<< HEAD
         mAuth = FirebaseAuth.getInstance();
         edtEmail = findViewById(R.id.edtEmail);
         edtPassword = findViewById(R.id.edtPassword);
@@ -86,6 +100,8 @@ public class Register extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

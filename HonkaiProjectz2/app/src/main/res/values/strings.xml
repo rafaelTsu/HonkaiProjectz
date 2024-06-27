@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">HonkaiProjectz2</string>
     <string name="login">Login</string>
+<<<<<<< HEAD
     <string name="logout">Logout</string>
     <string name="register">Registrar</string>
     <string name="email">Email</string>
@@ -22,4 +23,8 @@
         <item>Fate</item>
     </string-array>
 
+=======
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+>>>>>>> 001bb7893a3c1efecaa0965f7bfaf8f8e933c7cd
 </resources>
