@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Inventory">
+
+    <Button
+        android:id="@+id/button_screenshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/print" />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/backarrow"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inventory"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        />
+
+    <ListView
+        android:id="@+id/lstInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="160dp"
+        />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add"
+        android:textSize="16sp"
+        android:backgroundTint="@color/green"
+        />
+
+</RelativeLayout>

@@ -9,6 +9,13 @@
     <string name="music">Música</string>
     <string name="map">Mapa</string>
     <string name="back">Voltar</string>
+    <string name="add">Adicionar</string>
+    <string name="character">Personagens</string>
+    <string name="save">Salvar</string>
+    <string name="relic">Relíquias</string>
+    <string name="weapon">Armas</string>
+    <string name="print">Tirar print</string>
+    <string name="picture">Tirar foto</string>
 
     <string-array name="theme">
         <item>Escolha um tema:</item>

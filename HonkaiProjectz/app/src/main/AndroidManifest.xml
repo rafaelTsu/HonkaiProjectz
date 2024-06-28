@@ -13,6 +13,18 @@
         android:theme="@style/Theme.HonkaiProjectz"
         tools:targetApi="31">
         <activity
+            android:name=".views.Weapon"
+            android:exported="false" />
+        <activity
+            android:name=".views.Relic"
+            android:exported="false" />
+        <activity
+            android:name=".views.Character"
+            android:exported="false" />
+        <activity
+            android:name=".views.Inventory"
+            android:exported="false" />
+        <activity
             android:name=".views.Music"
             android:exported="false" />
         <activity
